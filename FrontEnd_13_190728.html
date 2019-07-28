@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            ul{
+                list-style-type: none;
+            }
+            label.label1{
+                font-weight: bold;
+                width:80px;
+                float:left;
+            }
+            fieldset{
+                margin:15px 10px;
+            }
+            ul li{
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>프로젝트 정보</legend>
+                <ul>
+                    <li>
+                        <label for="name" class="label1">이름</label>
+                        <input type ="text" id="name">
+                    </li>
+                     
+                    <li>
+                        <label for="importance" class="label1">중요도</label>
+                        <input type = "range" id="importance" value="1" min="1" max="6">
+                    </li>
+                    <br>
+                    <li>
+                        <label for="time" class="label1">예상 시간</label>
+                        <input type="time" id="time">
+                    </li>
+                    <li>
+                        <label for="date" class="label1">시작 날짜</label>
+                        <input type="date" id="date">
+                    </li>
+                    <li>
+                        <label for="Email" class="label1">이메일</label>
+                        <input type="email" id="Email">
+                    </li>
+                    <li>
+                        <label for="URL" class="label1">URL</label>
+                        <input type="url" id="URL">
+                    </li>
+                    <li>
+                        <label for="search" class="label1">검색</label>
+                        <input type="search" id="search">
+                    </li>
+                    <li>
+                        <input type="submit" title="전송" value="전송">
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </body>
+</html>
