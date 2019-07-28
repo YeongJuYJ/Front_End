@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th>
+                    <label for="number">사번</label>
+                </th>
+                <td>
+                    <input type="text" id="number">
+                </td>
+                <th>
+                    <label for="name">이름</label>
+                </th>
+                <td>
+                    <input type="text" id="name">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="age">나이</label>
+                </th>
+                <td>
+                    <input type="text" id="age">
+                </td>
+                <th>
+                    <label for="sex">성별</label>
+                </th>
+                <td>
+                    <label><input type="radio" name="sex" value="male">남</label>
+                    <label><input type="radio" name="sex" value="female">여</label>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="education">최종 학력</label>
+                </th>
+                <td colspan="4">
+                    <input type="text" id="education">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="hobby">취미</label>
+                </th>
+                <td colspan="4">
+                    <input type="checkbox" value="Sports">Sports
+                    <input type="checkbox" value="Books">Books
+                    <input type="checkbox" value="Dance">Dance
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="introduction">자기 소개</label>
+                </th>
+                <td colspan="4">
+                    <input type="text" id="introduction">
+                </td>
+            </tr>
+        </table>
+        <input type="submit" title="전송" value="쿼리 전송">
+        <input type="reset" title="초기화" value="원래대로">
+    </body>
+</html>
